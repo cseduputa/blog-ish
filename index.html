@@ -1,8 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>Blog-ish</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="css/blog-ish.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      <script src="js/blog-ish.js"></script>
 </head>
 <body>  
@@ -10,8 +15,15 @@
     
     <header class= "bg-header">
         <div class="bg-header-container">
+            <div class="topnav">
+                <a href="#" id="menu-icon"></a>
+          <a class="active" href="index.html">Home</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+    
             <button class="bg-header-button" onclick="redirectToLogin()">Login</button>
             <button class="bg-header-button" onclick="redirectToSignUp()">Wanna join? Sign up!</button>
+            </div>
         </div>
     </header> 
     
@@ -19,11 +31,18 @@
    
     <div class="bg-article-container">
     <p>
-    Blog-ish is a space dedicated...    
+    Blog-ish is a space dedicated...  
     </p>
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pharetra, ante non pulvinar sollicitudin, lacus lacus varius nisl, eu venenatis magna nunc a felis. Sed dapibus leo in libero volutpat eleifend. Mauris ullamcorper turpis nulla, vitae viverra nulla porttitor ut. Sed pulvinar imperdiet ipsum, hendrerit convallis mi. Sed id tellus ultrices, maximus lorem at, cursus erat. Sed quis mauris ullamcorper, pellentesque ligula vel, malesuada libero. In lectus enim, tempus vitae laoreet in, dignissim in odio. Integer ac lectus congue, venenatis odio vel, tincidunt dolor. Cras facilisis eget elit non porttitor. Fusce eget neque egestas leo ultricies pulvinar. Sed scelerisque metus eu sagittis tristique. Proin auctor commodo ligula quis tempor. Cras lacinia tortor sapien. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin pellentesque viverra feugiat.
+        </p>
     </div>
     
-    
+    <div class="bg-social-icons-container">
+        <i href="#" class="fa fa-instagram"></i>
+        <i href="#" class="fa fa-twitter"></i>
+        <i href="#" class="fa fa-facebook"></i>
+    </div>
     
     <footer class="bg-footer"></footer>    
     
